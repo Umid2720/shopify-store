@@ -19,12 +19,12 @@
 }
 
 .main-header__menu {
-  width: 587px;
+  width: 424px;
   display: flex;
-  column-gap: 30px;
   padding-top: 20px;
+  margin-left: 183px;
   padding-bottom: 20px;
-  justify-content: end;
+  justify-content: space-between;
 }
 
 .main-header__menu-link {
@@ -41,3 +41,4 @@
   border-radius: 300px;
   background-color: #060606;
 }
+
