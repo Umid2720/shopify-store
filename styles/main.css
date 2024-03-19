@@ -1,0 +1,7 @@
+/* Header styles */
+.main-header {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url("images/bg-image.jpg");
+}
