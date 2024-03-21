@@ -42,6 +42,26 @@
   background-color: #060606;
 }
 
+/* Shopify store */
+.shopify-store {
+  display: flex;
+  max-width: 1330px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-left: 55px;
+}
+
+.main-header__circle {
+  width: 60px;
+  right: 24px;
+  height: 60px;
+  bottom: 72px;
+  position: absolute;
+  border-radius: 30px;
+  background-color: #682ad5;
+}
+
 /* Media query */
 /* @media (min-width: 0) and (max-width: 474.9px) {} */
 @media (min-width: 475px) and (max-width: 775.9px) {
