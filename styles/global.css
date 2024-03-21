@@ -28,6 +28,9 @@ button {
 .flex {
   display: flex;
 }
+.column {
+  flex-direction: column;
+}
 .items-center {
   align-items: center;
 }
@@ -36,4 +39,7 @@ button {
 }
 .space-between {
   justify-content: space-between;
+}
+.center {
+  text-align: center;
 }
