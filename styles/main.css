@@ -121,6 +121,7 @@
   top: 144px;
   right: 485px;
   border-radius: 4px;
+  box-shadow: 0 10px 75px rgba(0, 0, 0, 0.14);
 }
 .shopify-store__images img:nth-child(2) {
   top: 34px;
@@ -132,6 +133,7 @@
   top: 20px;
   right: 34px;
   border-radius: 4px;
+  box-shadow: 0 10px 75px rgba(0, 0, 0, 0.14);
 }
 .shopify-store__images img:nth-child(4) {
   top: 316px;
@@ -139,7 +141,16 @@
   border-radius: 4px;
 }
 
-/* .brands */
+.brands {
+  width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 140px;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+}
 
 .main-header__circle {
   width: 60px;
