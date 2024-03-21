@@ -2,6 +2,8 @@
 .main-header {
   min-height: 100vh;
   padding-top: 16px;
+  position: relative;
+  padding-bottom: 140px;
   background-size: cover;
   background-position: center;
   background-image: url("../images/bg-image.jpg");
@@ -142,14 +144,14 @@
 }
 
 .brands {
-  width: 1040px;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 140px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  margin-top: 140px;
-  flex-wrap: wrap;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .main-header__circle {
