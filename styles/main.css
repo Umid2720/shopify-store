@@ -42,3 +42,20 @@
   background-color: #060606;
 }
 
+/* Media query */
+/* @media (min-width: 0) and (max-width: 474.9px) {} */
+@media (min-width: 475px) and (max-width: 775.9px) {
+  .main-header__menu {
+    gap: 1rem;
+    width: auto;
+    margin-left: 0;
+    justify-content: start;
+  }
+}
+
+@media (min-width: 776px) and (max-width: 989.9px) {
+  .main-header__menu {
+    margin-left: 0;
+  }
+}
+/* @media (min-width: 990px) and (max-width: 1200px) {} */
