@@ -21,4 +21,19 @@ a {
 button {
   border: none;
   cursor: pointer;
+  font-family: inherit;
+}
+
+/* classes */
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.j-center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
 }
