@@ -164,6 +164,46 @@
   background-color: #682ad5;
 }
 
+/* Manage store online */
+.manage-store {
+  padding-top: 83px;
+  padding-bottom: 35px;
+  background-color: #f3f1fc;
+}
+
+.manage-store a {
+  font-size: 15px;
+  color: #624ce0;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+}
+
+.manage-store h2 {
+  font-size: 53px;
+  max-width: 638px;
+  color: #343434;
+  font-weight: 400;
+  margin: 12px 0;
+  line-height: 67.2px;
+  letter-spacing: 1.6799999475479126px;
+}
+
+.manage-store p {
+  font-size: 18px;
+  color: #121212;
+  max-width: 608px;
+  line-height: 28.8px;
+  margin-bottom: 24px;
+}
+
+.manage-store__image {
+  max-width: 1040px;
+}
+
+.manage-store img {
+  width: 100%;
+}
+
 /* Media query */
 /* @media (min-width: 0) and (max-width: 474.9px) {} */
 @media (min-width: 475px) and (max-width: 775.9px) {
