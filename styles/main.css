@@ -46,11 +46,100 @@
 .shopify-store {
   display: flex;
   max-width: 1330px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 40px;
+  margin-left: auto;
+  position: relative;
+  margin-right: auto;
   padding-left: 55px;
+  padding-bottom: 17px;
 }
+
+.shopify-store__like {
+  max-width: 485px;
+}
+
+.shopify-store__like h4 {
+  font-size: 15px;
+  color: #595959;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+}
+
+.shopify-store__like h1 {
+  color: #343434;
+  font-size: 54px;
+  margin-top: 14px;
+  font-weight: 400;
+  line-height: 67.2px;
+  margin-bottom: 12px;
+  letter-spacing: 1.6799999475479126px;
+}
+
+.shopify-store__like p {
+  font-size: 18px;
+  color: #121212;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.shopify-store__buttons {
+  display: flex;
+  margin-top: 42px;
+}
+
+.shopify-store__buttons button {
+  height: 22px;
+  font-size: 16px;
+  padding: 1px 45px 0;
+  line-height: 22.4px;
+  border-radius: 300px;
+  border: 2px solid #8979e8;
+}
+
+.admin-demo {
+  color: #fff;
+  margin-right: 12px;
+  background-color: #8979e8;
+}
+
+.shop-demo {
+  color: #8979e8;
+  transition: all 0.2s linear;
+}
+
+.shop-demo:hover {
+  color: #fff;
+  background-color: #8979e8;
+}
+
+.shopify-store__images img {
+  position: absolute;
+}
+
+.shopify-store__images img:nth-child(1) {
+  top: 144px;
+  right: 485px;
+  border-radius: 4px;
+}
+.shopify-store__images img:nth-child(2) {
+  top: 34px;
+  z-index: 1;
+  right: 169px;
+  border-radius: 4px;
+}
+.shopify-store__images img:nth-child(3) {
+  top: 20px;
+  right: 34px;
+  border-radius: 4px;
+}
+.shopify-store__images img:nth-child(4) {
+  top: 316px;
+  right: 218px;
+  border-radius: 4px;
+}
+
+/* .brands */
 
 .main-header__circle {
   width: 60px;
