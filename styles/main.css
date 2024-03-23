@@ -558,6 +558,62 @@
   border-right: 1px solid #00000012;
 }
 
+/* Start section styles */
+.start {
+  padding: 75px 34px 100px;
+  background-color: #f6f6f6;
+}
+
+.where-start h2 {
+  font-size: 53px;
+  color: #343434;
+  font-weight: 400;
+  line-height: 67.2px;
+  letter-spacing: 1.6799999475479126px;
+}
+
+.where-start p {
+  font-size: 18px;
+  color: #121212;
+  margin: 10px 0 23px;
+  line-height: 28.8px;
+}
+
+.start-cards {
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 1372px;
+  padding: 20px 20px 4px;
+}
+
+.start-card {
+  flex: 1 1 240px;
+  border-radius: 5px;
+  padding: 46px 31px 31px;
+  background-color: #fff;
+  border: 1px solid #0000001a;
+}
+
+.start-card img {
+  width: 80px;
+  height: 80px;
+}
+
+.start-card h5 {
+  font-size: 16px;
+  color: #343434;
+  font-weight: 400;
+  line-height: 23.4px;
+  letter-spacing: 0.5400000214576721px;
+}
+
+.start-card p {
+  font-size: 14px;
+  color: #121212;
+  margin: 5px 0 23px;
+  line-height: 22.4px;
+}
+
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
   .investman__lifetime-type {
