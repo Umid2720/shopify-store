@@ -188,23 +188,35 @@
     </section>
 
     <!-- Customers say -->
-    <section class="customers-say">
+    <section class="customers-say center">
       <h2>What Our Customers Say</h2>
       <p>See what it's like to be a customer of Uvodo.</p>
-      <div class="customer-say__slider">
-        <div class="customers-say__slider-item">
+      <div class="customer-say__sliders">
+        <div class="customers-say__slider">
           <blockquote class="center">
             Uvodo and it's amazing support team has helped me set up my first
             ever online store from the ground up. Now I'm making a living from
             my hobby. Couldn't be happier!
           </blockquote>
-          <cite>Zane Mayes</cite>
-          <span>Entrepreneur, Business Owner</span>
+          <span class="customer-say__slider-author">Zane Mayes</span>
+          <span class="customer-say__slider-position"
+            >Entrepreneur, Business Owner</span
+          >
         </div>
-        <button type="button">&leftarrow;</button>
-        <button type="button">&rightarrow;</button>
-        <img src="images/mayes.png" alt="Zane Mayes" />
-        <img src="images/man.png" alt="man" />
+        <button type="button" class="customer-say__button left-pagination">
+          &leftarrow;
+        </button>
+        <button type="button" class="customer-say__button right-pagination">
+          &rightarrow;
+        </button>
+        <div class="customers-say__images">
+          <img
+            src="images/mayes.png"
+            alt="Zane Mayes"
+            class="customer-say__image-woman"
+          />
+          <img src="images/man.png" alt="man" class="customer-say__image-man" />
+        </div>
       </div>
     </section>
   </body>
