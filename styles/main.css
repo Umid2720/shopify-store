@@ -454,6 +454,110 @@
   transform: translateX(-50%);
 }
 
+/* Lifetime investman section styles */
+.investman {
+  padding: 76px 0px 100px;
+}
+
+.investman-lifetime {
+  padding: 0 10px;
+  max-width: 1120px;
+  margin: 0 auto 23px;
+}
+
+.investman-lifetime h2 {
+  font-size: 52px;
+  color: #343434;
+  font-weight: 400;
+  line-height: 67.2px;
+  margin-bottom: 10px;
+  letter-spacing: 1.6799999475479126px;
+}
+
+.investman-lifetime p {
+  font-size: 18px;
+  color: #121212;
+  line-height: 28.8px;
+}
+
+.investman__lifetime-types {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 27px 0;
+  max-width: 1110px;
+  border-radius: 5px;
+  box-shadow: 0 4px 70px #00000012;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.investman__lifetime-type {
+  width: 270px;
+  flex: 1 1 270px;
+  padding: 18px 45px;
+}
+
+.investman__lifetime-type h4 {
+  font-size: 21px;
+  color: #343434;
+  font-weight: 400;
+  line-height: 28.6px;
+  letter-spacing: 0.6600000262260437px;
+}
+
+.investman__lifetime-type p {
+  font-size: 14px;
+  color: #060606;
+  margin: 18px 0 20px;
+  line-height: 22.4px;
+}
+
+.investman__lifetime-type__score {
+  color: #343434;
+  font-size: 23px;
+  line-height: 31.2px;
+  letter-spacing: 0.7200000286102295px;
+}
+
+.investman__lifetime-type__score sup {
+  font-size: 12px;
+  color: #8f8f8f;
+  letter-spacing: 0.73px;
+}
+
+.investman__lifetime-type button {
+  width: 100%;
+  padding: 16px 0;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 19px 0 34px;
+  border-radius: 24px;
+  background-color: #8979e8;
+}
+
+.investman__lifetime-amenities {
+  color: #060606;
+  padding-left: 30px;
+}
+
+.investman__lifetime-amenities h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+.investman__lifetime-amenities span {
+  display: block;
+  font-size: 13px;
+  margin-top: 7px;
+  line-height: 22.4px;
+}
+
+.extended {
+  border-left: 1px solid #00000012;
+  border-right: 1px solid #00000012;
+}
+
 /* Media query */
 /* @media (min-width: 0) and (max-width: 474.9px) {} */
 @media (min-width: 475px) and (max-width: 775.9px) {
