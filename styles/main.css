@@ -1,6 +1,7 @@
 /* Header styles */
 .main-header {
-  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 1440px;
   padding-top: 16px;
   position: relative;
   padding-bottom: 140px;
@@ -266,7 +267,7 @@
 .pay-once {
   margin: 0 auto;
   align-items: end;
-  max-width: 1400px;
+  max-width: 1440px;
   padding-top: 104px;
   padding-left: 55px;
   padding-bottom: 36px;
@@ -322,13 +323,13 @@
 /* How sell section styles */
 .how-sell {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1440px;
   padding-top: 56px;
   padding-bottom: 104px;
   /* background-color: red; */
 }
 
-.how-sell__image img{
+.how-sell__image img {
   width: 100%;
 }
 
@@ -359,9 +360,9 @@
 .how-sell__information p {
   color: #121212;
   font-size: 12px;
+  max-width: 385px;
   font-weight: 400;
   line-height: 28.8px;
-  max-width: 385px;
 }
 
 .how-sell__information button {
@@ -371,6 +372,86 @@
   line-height: 22.4px;
   border-radius: 300px;
   background-color: #090909;
+}
+
+/* Our Customers say section styles */
+.customers-say {
+  padding-top: 76px;
+  padding-bottom: 140px;
+  background-color: #f7f3eb;
+}
+
+.customers-say h2 {
+  font-size: 54px;
+  color: #343434;
+  font-weight: 400;
+  line-height: 67.2px;
+  letter-spacing: 1.6799999475479126px;
+}
+
+.customers-say p {
+  font-size: 18px;
+  color: #121212;
+  margin: 10px 0 47px;
+  line-height: 28.8px;
+}
+
+.customer-say__sliders {
+  margin: 0 auto;
+  padding: 0 69px;
+  max-width: 987px;
+  position: relative;
+}
+
+.customers-say__slider {
+  border-radius: 5px;
+  padding: 80px 88px 75px;
+  background-color: #fff;
+  border: 1px solid #0000001a;
+}
+
+.customers-say__slider blockquote {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 31px;
+}
+
+.customer-say__slider-author {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.customer-say__slider-position {
+  display: block;
+  font-size: 14px;
+  margin-top: 9px;
+  line-height: 14px;
+}
+
+.customer-say__button {
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+  position: absolute;
+  border-radius: 21px;
+  transform: translateY(-50%);
+  border: 1px solid #09090966;
+}
+
+.left-pagination {
+  left: 0;
+}
+
+.right-pagination {
+  right: 0;
+}
+
+.customers-say__images {
+  left: 50%;
+  bottom: -36px;
+  position: absolute;
+  transform: translateX(-50%);
 }
 
 /* Media query */
