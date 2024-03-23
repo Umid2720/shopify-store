@@ -559,7 +559,28 @@
 }
 
 /* Media query */
-/* @media (min-width: 0) and (max-width: 474.9px) {} */
+@media (min-width: 0) and (max-width: 474.9px) {
+  .investman__lifetime-type {
+    padding: 18px;
+  }
+}
+
+@media (min-width: 535px) and (max-width: 809.9px) {
+  .enterprise button {
+    width: 450px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 809.9px) {
+  .regular,
+  .extended {
+    border-bottom: 1px solid #00000012;
+  }
+  .extended {
+    border-right-width: 0;
+  }
+}
+
 @media (min-width: 475px) and (max-width: 775.9px) {
   .main-header__menu {
     gap: 1rem;
