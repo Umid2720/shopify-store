@@ -164,7 +164,7 @@
   background-color: #682ad5;
 }
 
-/* Manage store online */
+/* Manage online store section styles */
 .manage-store {
   padding-top: 83px;
   padding-bottom: 35px;
@@ -204,7 +204,7 @@
   width: 100%;
 }
 
-/* Full control */
+/* Full control  section styles*/
 .full-control {
   margin: 80px 0;
   column-gap: 40px;
@@ -212,7 +212,6 @@
 }
 
 .full-control > div {
-  /* flex: 1 1 1; */
   width: 33%;
   flex-basis: 416px;
 }
@@ -261,6 +260,63 @@
   font-size: 16px;
   color: #060606;
   line-height: 25.6px;
+}
+
+/* Pay once section styles */
+.pay-once {
+  margin: 0 auto;
+  align-items: end;
+  max-width: 1400px;
+  padding-top: 104px;
+  padding-left: 55px;
+  padding-bottom: 36px;
+  /* background-color: red; */
+}
+
+.pay-once__information {
+  max-width: 387px;
+  margin: 16px 0 10px;
+}
+
+.pay-once__information span {
+  font-size: 15px;
+  color: #624ce0;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+}
+
+.pay-once__information h2 {
+  color: #343434;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 62.4px;
+  letter-spacing: 1.440000057220459px;
+}
+
+.pay-once__information p {
+  font-size: 18px;
+  color: #121212;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.pay-once__information button {
+  font-size: 16px;
+  margin-top: 34px;
+  padding: 1px 45px 0;
+  line-height: 22.4px;
+  border-radius: 300px;
+  background-color: #090909;
+}
+
+.pay-once__image {
+  bottom: -103px;
+  position: relative;
+  background-color: #fff;
+}
+
+.pay-once__image img {
+  width: 100%;
 }
 
 /* Media query */
