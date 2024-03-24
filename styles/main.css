@@ -266,12 +266,11 @@
 /* Pay once section styles */
 .pay-once {
   margin: 0 auto;
-  align-items: end;
   max-width: 1440px;
+  align-items: center;
   padding-top: 104px;
   padding-left: 55px;
   padding-bottom: 36px;
-  /* background-color: red; */
 }
 
 .pay-once__information {
@@ -311,8 +310,7 @@
 }
 
 .pay-once__image {
-  bottom: -103px;
-  position: relative;
+  flex: 1 1 500px;
   background-color: #fff;
 }
 
@@ -782,6 +780,31 @@
 
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
+  .pay-once {
+    padding: 0;
+  }
+  .pay-once__information {
+    max-width: 100%;
+    text-align: center;
+  }
+  .pay-once__information h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .pay-once__information p {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+  }
+  .pay-once__information button {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .pay-once__image {
+    position: static;
+  }
+
   .how-sell {
     padding-top: 0;
     padding-bottom: 20px;
@@ -801,10 +824,12 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   .how-sell__information button {
     font-size: 14px;
     margin-top: 20px;
+  }
+  .how-sell__image {
+    order: 1;
   }
 
   .customers-say {
@@ -960,11 +985,27 @@
     justify-content: start;
   }
 
+  .pay-once {
+    padding: 0;
+  }
+  .pay-once__information {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .pay-once__image {
+    text-align: center;
+  }
+  .pay-once__image img {
+    width: 75%;
+  }
+
   .how-sell {
     padding-top: 0;
     padding-bottom: 20px;
   }
   .how-sell__image {
+    order: 1;
     text-align: center;
   }
   .how-sell__image img {
@@ -1008,6 +1049,21 @@
     margin-left: 0;
   }
 
+  .pay-once {
+    padding: 0;
+  }
+  .pay-once__information {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .pay-once__image {
+    text-align: center;
+  }
+  .pay-once__image img {
+    width: 75%;
+  }
+
   .investman__lifetime-type {
     text-align: center;
   }
@@ -1015,4 +1071,5 @@
     padding-left: 0;
   }
 }
-/* @media (min-width: 990px) and (max-width: 1200px) {} */
+/* @media (min-width: 990px) and (max-width: 1200px) {
+} */
