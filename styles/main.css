@@ -10,6 +10,21 @@
   background-image: url("../images/bg-image.jpg");
 }
 
+/* Burger menu */
+.burger-menu {
+  gap: 5px;
+  right: 2rem;
+  display: none;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.burger-menu span {
+  width: 20px;
+  height: 1px;
+  background-color: #000;
+}
+
 /* navbar */
 .main-header__navbar {
   display: flex;
@@ -19,6 +34,18 @@
   margin-right: auto;
   align-items: center;
   justify-content: space-between;
+}
+
+.navbar-mobile {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  z-index: 10;
+  background-color: #000;
+  display: flex;
 }
 
 .main-header__menu {
@@ -45,13 +72,21 @@
   background-color: #060606;
 }
 
+.main-header__circle {
+  width: 60px;
+  right: 24px;
+  height: 60px;
+  bottom: 72px;
+  position: absolute;
+  border-radius: 30px;
+  background-color: #682ad5;
+}
+
 /* Shopify store */
 .shopify-store {
-  display: flex;
   max-width: 1330px;
   padding-top: 40px;
   margin-left: auto;
-  position: relative;
   margin-right: auto;
   padding-left: 55px;
   padding-bottom: 17px;
@@ -87,7 +122,7 @@
 }
 
 .shopify-store__buttons {
-  display: flex;
+  gap: 12px;
   margin-top: 42px;
 }
 
@@ -102,7 +137,6 @@
 
 .admin-demo {
   color: #fff;
-  margin-right: 12px;
   background-color: #8979e8;
 }
 
@@ -116,32 +150,12 @@
   background-color: #8979e8;
 }
 
-.shopify-store__images img {
-  position: absolute;
+.shopify-store__images {
+  flex: 1 1 450px;
 }
 
-.shopify-store__images img:nth-child(1) {
-  top: 144px;
-  right: 485px;
-  border-radius: 4px;
-  box-shadow: 0 10px 75px rgba(0, 0, 0, 0.14);
-}
-.shopify-store__images img:nth-child(2) {
-  top: 34px;
-  z-index: 1;
-  right: 169px;
-  border-radius: 4px;
-}
-.shopify-store__images img:nth-child(3) {
-  top: 20px;
-  right: 34px;
-  border-radius: 4px;
-  box-shadow: 0 10px 75px rgba(0, 0, 0, 0.14);
-}
-.shopify-store__images img:nth-child(4) {
-  top: 316px;
-  right: 218px;
-  border-radius: 4px;
+.shopify-store__images img {
+  width: 100%;
 }
 
 .brands {
@@ -155,17 +169,7 @@
   justify-content: center;
 }
 
-.main-header__circle {
-  width: 60px;
-  right: 24px;
-  height: 60px;
-  bottom: 72px;
-  position: absolute;
-  border-radius: 30px;
-  background-color: #682ad5;
-}
-
-/* Manage online store section styles */
+/* Manage online store */
 .manage-store {
   padding: 83px 1rem 35px;
   background-color: #f3f1fc;
@@ -779,6 +783,33 @@
 
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
+  .main-header__navbar {
+    display: none;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .shopify-store {
+    text-align: center;
+    padding: 2rem 1rem 0;
+  }
+  .shopify-store__like h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  .shopify-store__like p {
+    font-size: 1rem;
+  }
+  .shopify-store__buttons {
+    margin-top: 22px;
+    justify-content: center;
+  }
+  .brands {
+    margin-top: 0;
+  }
+
   .manage-store {
     padding: 1rem;
   }
@@ -809,7 +840,7 @@
   }
 
   .pay-once {
-    padding: 0;
+    padding: 0 1rem;
   }
   .pay-once__information {
     max-width: 100%;
@@ -818,24 +849,22 @@
   .pay-once__information h2 {
     font-size: 2rem;
     line-height: 1.2;
+    margin: 1.25rem 0;
   }
   .pay-once__information p {
-    font-size: 16px;
-    line-height: 1.2;
-    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.4;
   }
   .pay-once__information button {
     font-size: 14px;
     margin-top: 20px;
   }
-
   .pay-once__image {
     position: static;
   }
 
   .how-sell {
-    padding-top: 0;
-    padding-bottom: 20px;
+    padding: 0 1rem 20px;
   }
   .how-sell__information {
     width: 100%;
@@ -1006,11 +1035,38 @@
 }
 
 @media (min-width: 475px) and (max-width: 775.9px) {
+  .main-header {
+    padding-bottom: 40px;
+  }
   .main-header__menu {
     gap: 1rem;
     width: auto;
     margin-left: 0;
     justify-content: start;
+  }
+  .main-header__menu-link {
+    font-size: 12px;
+  }
+  .main-header__btn-buy {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .main-header__circle {
+    bottom: 20px;
+  }
+
+  .shopify-store {
+    padding: 2rem 1rem 0;
+  }
+  .shopify-store__like {
+    width: 100%;
+    max-width: 100%;
+  }
+  .shopify-store__buttons {
+    justify-content: center;
+  }
+  .brands {
+    margin-top: 0;
   }
 
   .pay-once {
@@ -1075,6 +1131,21 @@
 @media (min-width: 776px) and (max-width: 989.9px) {
   .main-header__menu {
     margin-left: 0;
+  }
+
+  .shopify-store {
+    padding: 2rem 1rem 0;
+  }
+  .shopify-store__like {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .shopify-store__buttons {
+    justify-content: center;
+  }
+  .brands {
+    margin-top: 0;
   }
 
   .pay-once {
