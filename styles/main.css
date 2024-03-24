@@ -698,6 +698,43 @@
   background-color: #869791;
 }
 
+/* Installation section styles */
+.installation {
+  padding: 58px 0 97px;
+  background-color: #f3f1fc;
+}
+
+.installation h2 {
+  font-size: 56px;
+  color: #343434;
+  max-width: 583px;
+  font-weight: 400;
+  line-height: 67.2px;
+  letter-spacing: 1.6799999475479126px;
+}
+
+.installation p {
+  font-size: 18px;
+  color: #121212;
+  margin-top: 60px;
+  line-height: 28.8px;
+}
+
+.installation small {
+  font-size: 13px;
+  color: #121212;
+  margin: 1px 0 23px;
+  line-height: 28.8px;
+}
+
+.installation button {
+  font-size: 16px;
+  padding: 1px 45px 0;
+  line-height: 22.4px;
+  border-radius: 300px;
+  background-color: #8979e8;
+}
+
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
   .investman__lifetime-type {
