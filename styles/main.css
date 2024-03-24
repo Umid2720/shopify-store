@@ -564,7 +564,7 @@
   background-color: #f6f6f6;
 }
 
-.where-start h2 {
+.start h2 {
   font-size: 53px;
   color: #343434;
   font-weight: 400;
@@ -786,6 +786,29 @@
 @media (min-width: 0) and (max-width: 474.9px) {
   .investman__lifetime-type {
     padding: 18px;
+  }
+
+  .start {
+    padding: 30px 20px;
+  }
+  .start h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .where-start p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  .start-cards {
+    gap: 1rem;
+    padding: 0;
+  }
+  .start-card {
+    padding: 20px;
+  }
+  .start-card img {
+    width: 50px;
+    height: 50px;
   }
 
   .blog {
