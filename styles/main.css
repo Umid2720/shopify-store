@@ -320,13 +320,16 @@
   width: 100%;
 }
 
-/* How sell section styles */
+/* How sell */
 .how-sell {
   margin: 0 auto;
   max-width: 1440px;
   padding-top: 56px;
   padding-bottom: 104px;
-  /* background-color: red; */
+}
+
+.how-sell__image {
+  flex: 1 1 320px;
 }
 
 .how-sell__image img {
@@ -334,7 +337,8 @@
 }
 
 .how-sell__information {
-  max-width: 442px;
+  width: 442px;
+  padding-right: 30px;
 }
 
 .how-sell__information span {
@@ -342,10 +346,6 @@
   color: #624ce0;
   line-height: 24px;
   letter-spacing: 1.5px;
-}
-
-.how-sell__information {
-  padding-right: 30px;
 }
 
 .how-sell__information h2 {
@@ -782,6 +782,31 @@
 
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
+  .how-sell {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  .how-sell__information {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+  .how-sell__information h2 {
+    margin: 10px 0;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .how-sell__information p {
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .how-sell__information button {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
   .customers-say {
     padding-top: 30px;
     padding-bottom: 40px;
@@ -933,6 +958,26 @@
     width: auto;
     margin-left: 0;
     justify-content: start;
+  }
+
+  .how-sell {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  .how-sell__image {
+    text-align: center;
+  }
+  .how-sell__image img {
+    width: 75%;
+  }
+  .how-sell__information {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+  .how-sell__information p {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .customers-say {
