@@ -614,13 +614,12 @@
   line-height: 22.4px;
 }
 
-/* Blog section styles */
-
+/* Blog */
 .blog {
   padding: 75px 55px 108px;
 }
 
-.read-blog h2 {
+.blog h2 {
   font-size: 54px;
   color: #343434;
   font-weight: 400;
@@ -645,7 +644,7 @@
 
 .blog-slider {
   flex: 1 1 400px;
-  max-width: 700px;
+  max-width: 550px;
 }
 
 .blog-slider img {
@@ -683,7 +682,7 @@
 
 .blog-slider__pagination {
   left: 50%;
-  bottom: 0;
+  bottom: -15px;
   column-gap: 10px;
   position: absolute;
   transform: translateX(-50%);
@@ -698,7 +697,7 @@
   background-color: #869791;
 }
 
-/* Installation section styles */
+/* Installation */
 .installation {
   padding: 58px 0 97px;
   background-color: #f3f1fc;
@@ -735,6 +734,7 @@
   background-color: #8979e8;
 }
 
+/* Footer */
 .footer {
   padding: 29px 55px 24px;
   background-color: #090909;
@@ -788,6 +788,25 @@
     padding: 18px;
   }
 
+  .blog {
+    padding: 30px;
+  }
+  .blog h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .read-blog p {
+    margin-bottom: 10px;
+  }
+  .blog-cards {
+    padding: 0;
+  }
+  .blog-slider h5,
+  .blog-slider p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
   .installation {
     padding: 30px;
   }
@@ -797,6 +816,11 @@
   }
   .installation p {
     margin-top: 20px;
+    line-height: 1.2;
+  }
+  .installation small {
+    margin-top: 7px;
+    line-height: 1.2;
   }
 
   .footer {
