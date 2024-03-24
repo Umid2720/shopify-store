@@ -758,8 +758,8 @@
 }
 
 .footer__menu > div {
-  flex: 1 1 280px;
   max-width: 302px;
+  flex: 1 1 182.5px;
 }
 
 .footer__menu h5 {
@@ -787,11 +787,15 @@
   .investman__lifetime-type {
     padding: 18px;
   }
-
+  .footer {
+    text-align: center;
+  }
+  .footer__navbar ul {
+    justify-content: center;
+  }
   .footer__menu > div {
     width: 100%;
     margin: 0 auto;
-    text-align: center;
   }
 }
 
