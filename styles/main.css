@@ -374,7 +374,7 @@
   background-color: #090909;
 }
 
-/* Our Customers say section styles */
+/* Our customers say */
 .customers-say {
   padding-top: 76px;
   padding-bottom: 140px;
@@ -440,11 +440,11 @@
 }
 
 .left-pagination {
-  left: 0;
+  left: 10px;
 }
 
 .right-pagination {
-  right: 0;
+  right: 10px;
 }
 
 .customers-say__images {
@@ -782,6 +782,40 @@
 
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
+  .customers-say {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .customers-say h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .customers-say p {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .customer-say__sliders {
+    padding: 0 5px;
+  }
+  .customers-say__slider {
+    padding: 20px;
+  }
+  .customers-say__slider blockquote {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+  .customer-say__slider-position {
+    font-size: 12px;
+  }
+  .customers-say__images img {
+    height: 50px;
+  }
+  .customer-say__button {
+    display: none;
+  }
+
   .investman {
     padding: 30px 0px;
   }
@@ -899,6 +933,21 @@
     width: auto;
     margin-left: 0;
     justify-content: start;
+  }
+
+  .customers-say {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .customer-say__sliders {
+    padding: 0 2rem;
+  }
+  .customers-say__slider {
+    padding: 25px 20px 45px;
+  }
+  .customers-say__slider blockquote {
+    font-size: 20px;
+    line-height: 1.5;
   }
 
   .investman__lifetime-type {
