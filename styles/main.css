@@ -614,10 +614,103 @@
   line-height: 22.4px;
 }
 
+/* Blog section styles */
+
+.blog {
+  padding: 75px 55px 108px;
+}
+
+.read-blog h2 {
+  font-size: 54px;
+  color: #343434;
+  font-weight: 400;
+  line-height: 67.2px;
+  letter-spacing: 1.6799999475479126px;
+}
+
+.read-blog p {
+  font-size: 18px;
+  color: #060606;
+  line-height: 28.8px;
+  margin: 10px 0 47px;
+}
+
+.blog-cards {
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1330px;
+  position: relative;
+  padding: 10px 10px 34px;
+}
+
+.blog-slider {
+  flex: 1 1 400px;
+  max-width: 700px;
+}
+
+.blog-slider img {
+  width: 100%;
+}
+
+.blog-slider h5 {
+  font-size: 20px;
+  color: #090909;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 16px 0 12px;
+}
+
+.blog-slider p {
+  font-size: 18px;
+  color: #060606;
+  line-height: 28.8px;
+  margin-bottom: 14px;
+}
+
+.blog-slider__date {
+  font-size: 14px;
+  color: #a2a2a2;
+  line-height: 22.4px;
+}
+
+.blog-slider__link {
+  font-size: 14px;
+  color: #090909;
+  font-weight: 400;
+  text-align: right;
+  line-height: 22.4px;
+}
+
+.blog-slider__pagination {
+  left: 50%;
+  bottom: 0;
+  column-gap: 10px;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.blog-slider__pagination span {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #869791;
+}
+
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
   .investman__lifetime-type {
     padding: 18px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 539.9px) {
+  .investman__lifetime-type {
+    text-align: center;
+  }
+  .investman__lifetime-amenities {
+    padding-left: 0;
   }
 }
 
