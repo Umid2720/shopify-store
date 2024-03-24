@@ -11,8 +11,14 @@
   <body>
     <!-- Header -->
     <header class="main-header">
+      <!-- Burger menu -->
+      <button class="burger-menu column" id="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <!-- Navbar -->
-      <nav class="main-header__navbar">
+      <nav class="main-header__navbar" id="navbar">
         <ul class="main-header__menu">
           <li>
             <a href="#" class="main-header__menu-link">Home</a>
@@ -36,7 +42,7 @@
         </button>
       </nav>
 
-      <section class="shopify-store">
+      <section class="shopify-store flex wrap">
         <div class="shopify-store__like">
           <h4>PAY ONE-TIME SMALL FEE, USE LIFETIME</h4>
           <h1>Like Shopify store, with one-time fee</h1>
@@ -44,7 +50,7 @@
             Uvodo is an open-source Headless eCommerce Platform for small and
             medium brands, and everyone who wants to sell online.
           </p>
-          <div class="shopify-store__buttons">
+          <div class="shopify-store__buttons flex wrap">
             <button type="button" class="admin-demo flex items-center">
               Admin Demo
             </button>
@@ -54,10 +60,7 @@
           </div>
         </div>
         <div class="shopify-store__images">
-          <img src="images/visit-store.png" alt="visit-store" />
-          <img src="images/girl-with-bg.png" alt="girl-with-bg" />
-          <img src="images/socks.jpg" alt="socks" height="256" />
-          <img src="images/bin.png" alt="bin" />
+          <img src="images/shopify-store.png" alt="Shopify storey" />
         </div>
       </section>
 
@@ -79,7 +82,7 @@
 
     <!-- Manage store online -->
     <section class="manage-store center flex column items-center j-center">
-      <a href="#">MOBILE FIRST DESIGN</a>
+      <span href="#">MOBILE FIRST DESIGN</span>
       <h2>Manage your online store from your pocket</h2>
       <p>
         Enjoy complete freedom of doing business online by managing every aspect
@@ -91,7 +94,7 @@
     </section>
 
     <!-- Full control -->
-    <section class="full-control flex j-center">
+    <section class="full-control flex wrap j-center">
       <div class="full-control__over">
         <span>360° CUSTOMIZABLE</span>
         <h2>Have full control over your online store</h2>
@@ -156,7 +159,7 @@
     </section>
 
     <!-- Pay once section -->
-    <section class="pay-once flex space-between">
+    <section class="pay-once flex wrap space-between">
       <div class="pay-once__information">
         <span>PWA READY STOREFRONT</span>
         <h2>Pay once, own everything</h2>
@@ -167,12 +170,12 @@
         <button class="white">Buy Uvodo now</button>
       </div>
       <div class="pay-once__image">
-        <img src="images/Frame.png" alt="Frame" />
+        <img src="images/pay-once.png" alt="pay once" />
       </div>
     </section>
 
     <!-- How sell seciton -->
-    <section class="how-sell flex items-center space-between">
+    <section class="how-sell flex wrap items-center space-between">
       <div class="how-sell__image">
         <img src="images/how-sell.png" alt="how-sell" />
       </div>
@@ -366,11 +369,10 @@
           <span></span>
           <span></span>
         </div>
-        <!-- <div class="blog-slider"></div> -->
       </div>
     </section>
 
-    <!-- Installation section -->
+    <!-- Installation -->
     <section class="installation center flex column items-center">
       <h2>We can take care of the installation</h2>
       <p>Don't want to deal with technical stuff?</p>
@@ -422,5 +424,7 @@
 
       <div class="footer__bottom">© 2021 Uvodo eCommerce</div>
     </footer>
+
+    <script src="js/app.js"></script>
   </body>
 </html>
