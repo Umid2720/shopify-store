@@ -735,10 +735,63 @@
   background-color: #8979e8;
 }
 
+.footer {
+  padding: 29px 55px 24px;
+  background-color: #090909;
+}
+
+.footer__navbar ul {
+  column-gap: 30px;
+  padding-bottom: 31px;
+  border-bottom: 1px solid #282829;
+}
+
+.footer__navbar a {
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.footer__menu {
+  row-gap: 1rem;
+  padding-top: 1px;
+  margin: 35px 0 50px;
+}
+
+.footer__menu > div {
+  flex: 1 1 280px;
+  max-width: 302px;
+}
+
+.footer__menu h5 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 26px;
+}
+
+.footer__menu li {
+  font-size: 14px;
+  color: #8e9ca1;
+  line-height: 22.4px;
+  margin-bottom: 10px;
+}
+
+.footer__bottom {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
   .investman__lifetime-type {
     padding: 18px;
+  }
+
+  .footer__menu > div {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
