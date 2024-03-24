@@ -167,12 +167,11 @@
 
 /* Manage online store section styles */
 .manage-store {
-  padding-top: 83px;
-  padding-bottom: 35px;
+  padding: 83px 1rem 35px;
   background-color: #f3f1fc;
 }
 
-.manage-store a {
+.manage-store span {
   font-size: 15px;
   color: #624ce0;
   line-height: 24px;
@@ -180,11 +179,11 @@
 }
 
 .manage-store h2 {
+  margin: 12px 0;
   font-size: 53px;
   max-width: 638px;
   color: #343434;
   font-weight: 400;
-  margin: 12px 0;
   line-height: 67.2px;
   letter-spacing: 1.6799999475479126px;
 }
@@ -780,6 +779,18 @@
 
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
+  .manage-store {
+    padding: 1rem;
+  }
+  .manage-store h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .manage-store p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
   .full-control {
     margin: 40px 0;
     padding: 0 1rem 0;
