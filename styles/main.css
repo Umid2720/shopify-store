@@ -787,6 +787,18 @@
   .investman__lifetime-type {
     padding: 18px;
   }
+
+  .installation {
+    padding: 30px;
+  }
+  .installation h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .installation p {
+    margin-top: 20px;
+  }
+
   .footer {
     text-align: center;
   }
