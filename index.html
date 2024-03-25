@@ -10,16 +10,16 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="main-header">
+    <header class="main-header mx-auto relative">
       <!-- Burger menu -->
-      <button class="burger-menu column" id="burger-menu">
+      <button class="burger-menu column absolute" id="burger-menu">
         <span></span>
         <span></span>
         <span></span>
       </button>
       <!-- Navbar -->
-      <nav class="main-header__navbar" id="navbar">
-        <ul class="main-header__menu">
+      <nav class="main-header__navbar flex items-center space-between mx-auto">
+        <ul class="main-header__menu flex space-between" id="menu">
           <li>
             <a href="#" class="main-header__menu-link">Home</a>
           </li>
@@ -37,12 +37,12 @@
           </li>
         </ul>
 
-        <button type="button" class="main-header__btn-buy">
+        <button type="button" class="main-header__btn-buy white">
           Buy Uvodo now
         </button>
       </nav>
 
-      <section class="shopify-store flex wrap">
+      <section class="shopify-store flex wrap mx-auto">
         <div class="shopify-store__like">
           <h4>PAY ONE-TIME SMALL FEE, USE LIFETIME</h4>
           <h1>Like Shopify store, with one-time fee</h1>
@@ -51,7 +51,7 @@
             medium brands, and everyone who wants to sell online.
           </p>
           <div class="shopify-store__buttons flex wrap">
-            <button type="button" class="admin-demo flex items-center">
+            <button type="button" class="admin-demo flex items-center white">
               Admin Demo
             </button>
             <button type="button" class="shop-demo flex items-center">
@@ -64,7 +64,7 @@
         </div>
       </section>
 
-      <div class="brands">
+      <div class="brands flex wrap items-center j-center mx-auto">
         <img src="images/brands-logo/stripe.png" alt="stripe" height="56" />
         <img src="images/brands-logo/paypal.png" alt="paypal" height="56" />
         <img src="images/brands-logo/envato.png" alt="envato" height="56" />
@@ -77,7 +77,7 @@
         <img src="images/brands-logo/500.png" alt="500" height="56" />
       </div>
 
-      <div class="main-header__circle"></div>
+      <div class="main-header__circle absolute"></div>
     </header>
 
     <!-- Manage store online -->
@@ -159,7 +159,7 @@
     </section>
 
     <!-- Pay once section -->
-    <section class="pay-once flex wrap space-between">
+    <section class="pay-once flex wrap items-center space-between mx-auto">
       <div class="pay-once__information">
         <span>PWA READY STOREFRONT</span>
         <h2>Pay once, own everything</h2>
@@ -175,7 +175,7 @@
     </section>
 
     <!-- How sell seciton -->
-    <section class="how-sell flex wrap items-center space-between">
+    <section class="how-sell flex wrap items-center space-between mx-auto">
       <div class="how-sell__image">
         <img src="images/how-sell.png" alt="how-sell" />
       </div>
@@ -194,7 +194,7 @@
     <section class="customers-say center">
       <h2>What Our Customers Say</h2>
       <p>See what it's like to be a customer of Uvodo.</p>
-      <div class="customer-say__sliders">
+      <div class="customer-say__sliders mx-auto relative">
         <div class="customers-say__slider">
           <blockquote class="center">
             Uvodo and it's amazing support team has helped me set up my first
@@ -212,7 +212,7 @@
         <button type="button" class="customer-say__button right-pagination">
           &rightarrow;
         </button>
-        <div class="customers-say__images">
+        <div class="customers-say__images absolute">
           <img
             src="images/mayes.png"
             alt="Zane Mayes"
@@ -225,11 +225,11 @@
 
     <!-- Lifetime investman section -->
     <section class="investman">
-      <div class="investman-lifetime center">
+      <div class="investman-lifetime center mx-auto">
         <h2>One cost, lifetime investment.</h2>
         <p>It's a one-time payment. Pay once, use for a lifetime.</p>
       </div>
-      <div class="investman__lifetime-types">
+      <div class="investman__lifetime-types flex wrap j-center mx-auto">
         <div class="regular investman__lifetime-type">
           <h4>Regular</h4>
           <p>
@@ -288,7 +288,7 @@
         <h2>So, where to start?</h2>
         <p>It's never been so easy to launch your online store.</p>
       </div>
-      <div class="start-cards flex wrap">
+      <div class="start-cards flex wrap mx-auto">
         <div class="start-card">
           <img src="images/cloud.png" alt="cloud" />
           <h5>Buy Uvodo</h5>
@@ -323,7 +323,7 @@
           business.
         </p>
       </div>
-      <div class="blog-cards flex j-center wrap">
+      <div class="blog-cards flex wrap j-center mx-auto relative">
         <div class="blog-slider">
           <img src="images/man-likes.png" alt="man and likes" />
           <h5>Social media isn't killing as much as smoking</h5>
@@ -365,7 +365,7 @@
           </div>
         </div>
 
-        <div class="blog-slider__pagination flex">
+        <div class="blog-slider__pagination flex absolute">
           <span></span>
           <span></span>
         </div>
@@ -385,44 +385,46 @@
 
     <!-- Footer section -->
     <footer class="footer white">
-      <nav class="footer__navbar">
-        <ul class="flex">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Features</a>
-          </li>
-          <li>
-            <a href="#">Pricing</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="footer__wrapper mx-auto">
+        <nav class="footer__navbar">
+          <ul class="flex">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+          </ul>
+        </nav>
 
-      <div class="footer__menu flex wrap">
-        <div>
-          <h5>Resources</h5>
-          <ul>
-            <li>Feature Requests</li>
-            <li>Documentation</li>
-            <li>Changelog</li>
-            <li>Roadmap</li>
-            <li>Support</li>
-            <li>Blog</li>
-          </ul>
+        <div class="footer__menu flex wrap">
+          <div>
+            <h5>Resources</h5>
+            <ul>
+              <li>Feature Requests</li>
+              <li>Documentation</li>
+              <li>Changelog</li>
+              <li>Roadmap</li>
+              <li>Support</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div>
+            <h5>Legal</h5>
+            <ul>
+              <li>Terms of Service</li>
+              <li>Privacy Policy</li>
+              <li>Cookie Policy</li>
+              <li>Refund policy</li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <h5>Legal</h5>
-          <ul>
-            <li>Terms of Service</li>
-            <li>Privacy Policy</li>
-            <li>Cookie Policy</li>
-            <li>Refund policy</li>
-          </ul>
-        </div>
+
+        <div class="footer__bottom">© 2021 Uvodo eCommerce</div>
       </div>
-
-      <div class="footer__bottom">© 2021 Uvodo eCommerce</div>
     </footer>
 
     <script src="js/app.js"></script>
