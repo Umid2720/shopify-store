@@ -1,9 +1,7 @@
 /* Header styles */
 .main-header {
-  margin: 0 auto;
   max-width: 1440px;
   padding-top: 16px;
-  position: relative;
   padding-bottom: 140px;
   background-size: cover;
   background-position: center;
@@ -13,9 +11,9 @@
 /* Burger menu */
 .burger-menu {
   gap: 5px;
+  top: 2rem;
   right: 2rem;
   display: none;
-  position: absolute;
   transition: all 0.5s;
 }
 
@@ -27,13 +25,8 @@
 
 /* navbar */
 .main-header__navbar {
-  display: flex;
   padding: 4px 20px;
   max-width: 1370px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .navbar-mobile {
@@ -42,19 +35,18 @@
   bottom: 0;
   left: 0;
   right: 0;
+  width: 100vw;
+  height: 100vh;
   color: #fff;
-  z-index: 10;
-  background-color: #000;
   display: flex;
+  background-color: #000;
 }
 
 .main-header__menu {
   width: 424px;
-  display: flex;
   padding-top: 20px;
   margin-left: 183px;
   padding-bottom: 20px;
-  justify-content: space-between;
 }
 
 .main-header__menu-link {
@@ -64,7 +56,6 @@
 }
 
 .main-header__btn-buy {
-  color: #fff;
   font-size: 14px;
   line-height: 140%;
   padding: 14px 24px;
@@ -77,7 +68,6 @@
   right: 24px;
   height: 60px;
   bottom: 72px;
-  position: absolute;
   border-radius: 30px;
   background-color: #682ad5;
 }
@@ -86,8 +76,6 @@
 .shopify-store {
   max-width: 1330px;
   padding-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 55px;
   padding-bottom: 17px;
 }
@@ -105,8 +93,8 @@
 }
 
 .shopify-store__like h1 {
-  color: #343434;
   font-size: 54px;
+  color: #343434;
   margin-top: 14px;
   font-weight: 400;
   line-height: 67.2px;
@@ -136,7 +124,6 @@
 }
 
 .admin-demo {
-  color: #fff;
   background-color: #8979e8;
 }
 
@@ -160,13 +147,7 @@
 
 .brands {
   width: 95%;
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 140px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Manage online store */
@@ -252,9 +233,9 @@
 }
 
 .full-control__card h4 {
-  color: #343434;
-  font-size: 17px;
   margin: 24px 0;
+  font-size: 17px;
+  color: #343434;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0.6000000238418579px;
@@ -268,11 +249,9 @@
 
 /* Pay once */
 .pay-once {
-  margin: 0 auto;
   max-width: 1440px;
   padding-top: 104px;
   padding-left: 55px;
-  align-items: center;
   padding-bottom: 36px;
 }
 
@@ -323,7 +302,6 @@
 
 /* How sell */
 .how-sell {
-  margin: 0 auto;
   max-width: 1440px;
   padding-top: 56px;
   padding-bottom: 104px;
@@ -398,10 +376,8 @@
 }
 
 .customer-say__sliders {
-  margin: 0 auto;
   padding: 0 69px;
   max-width: 987px;
-  position: relative;
 }
 
 .customers-say__slider {
@@ -451,7 +427,6 @@
 .customers-say__images {
   left: 50%;
   bottom: -36px;
-  position: absolute;
   transform: translateX(-50%);
 }
 
@@ -462,7 +437,7 @@
 
 .investman-lifetime {
   max-width: 1120px;
-  margin: 0 auto 23px;
+  padding: 0 1rem 1.5rem;
 }
 
 .investman h2 {
@@ -481,18 +456,15 @@
 }
 
 .investman__lifetime-types {
-  display: flex;
-  margin: 0 auto;
-  flex-wrap: wrap;
   padding: 27px 0;
   max-width: 1110px;
   border-radius: 5px;
   box-shadow: 0 4px 70px #00000012;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .investman__lifetime-type {
-  flex: 1 1 270px;
+  max-width: 500px;
+  flex: 1 1 258.5px;
   padding: 18px 45px;
 }
 
@@ -580,7 +552,6 @@
 
 .start-cards {
   gap: 40px;
-  margin: 0 auto;
   max-width: 1372px;
   padding: 20px 20px 4px;
 }
@@ -635,9 +606,7 @@
 
 .blog-cards {
   gap: 20px;
-  margin: 0 auto;
   max-width: 1330px;
-  position: relative;
   padding: 10px 10px 34px;
 }
 
@@ -675,7 +644,6 @@
   font-size: 14px;
   color: #090909;
   font-weight: 400;
-  text-align: right;
   line-height: 22.4px;
 }
 
@@ -683,7 +651,6 @@
   left: 50%;
   bottom: -15px;
   column-gap: 10px;
-  position: absolute;
   transform: translateX(-50%);
 }
 
@@ -739,6 +706,10 @@
   background-color: #090909;
 }
 
+.footer__wrapper {
+  max-width: 1440px;
+}
+
 .footer__navbar ul {
   column-gap: 30px;
   padding-bottom: 31px;
@@ -783,8 +754,12 @@
 
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
-  .main-header__navbar {
+  .main-header__menu {
     display: none;
+  }
+  .main-header__btn-buy {
+    font-size: 12px;
+    padding: 10px 16px;
   }
 
   .burger-menu {
@@ -1018,22 +993,6 @@
   }
 }
 
-@media (min-width: 535px) and (max-width: 809.9px) {
-  .enterprise button {
-    width: 450px;
-  }
-}
-
-@media (min-width: 0px) and (max-width: 809.9px) {
-  .regular,
-  .extended {
-    border-bottom: 1px solid #00000012;
-  }
-  .extended {
-    border-right-width: 0;
-  }
-}
-
 @media (min-width: 475px) and (max-width: 775.9px) {
   .main-header {
     padding-bottom: 40px;
@@ -1048,8 +1007,8 @@
     font-size: 12px;
   }
   .main-header__btn-buy {
-    padding: 10px;
     font-size: 12px;
+    padding: 10px 16px;
   }
   .main-header__circle {
     bottom: 20px;
@@ -1120,6 +1079,14 @@
     line-height: 1.5;
   }
 
+  .regular,
+  .extended {
+    border-bottom: 1px solid #00000012;
+  }
+  .extended {
+    border-right-width: 0;
+  }
+
   .investman__lifetime-type {
     text-align: center;
   }
@@ -1170,5 +1137,3 @@
     padding-left: 0;
   }
 }
-/* @media (min-width: 990px) and (max-width: 1200px) {
-} */
