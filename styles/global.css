@@ -20,9 +20,35 @@ a {
 }
 button {
   border: none;
+  color: #fff;
   cursor: pointer;
   font-family: inherit;
   background-color: transparent;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #343434;
+  font-weight: 400;
+}
+h1,
+h2 {
+  font-size: 54px;
+  line-height: 67.2px;
+  letter-spacing: 1.6799999475479126px;
+}
+h3 {
+  font-size: 46px;
+  line-height: 62.4px;
+  letter-spacing: 1.440000057220459px;
+}
+h1 + p,
+h2 + p,
+h3 + p {
+  font-size: 18px;
+  color: #121212;
+  line-height: 28.8px;
 }
 
 /* classes */
@@ -62,4 +88,10 @@ button {
 }
 .absolute {
   position: absolute;
+}
+.little-title {
+  font-size: 15px;
+  color: #624ce0;
+  line-height: 24px;
+  letter-spacing: 1.5px;
 }
