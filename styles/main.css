@@ -1,5 +1,5 @@
 /* Header styles */
-.main-header {
+.header {
   max-width: 1440px;
   padding-top: 16px;
   padding-bottom: 140px;
@@ -24,7 +24,7 @@
 }
 
 /* navbar */
-.main-header__navbar {
+.header__navbar {
   padding: 4px 20px;
   max-width: 1370px;
 }
@@ -42,20 +42,20 @@
   background-color: #000;
 }
 
-.main-header__menu {
+.header__menu {
   width: 424px;
   padding-top: 20px;
   margin-left: 183px;
   padding-bottom: 20px;
 }
 
-.main-header__menu-link {
+.header__menu-link {
   font-size: 15px;
   color: #090909;
   line-height: 107%;
 }
 
-.main-header__btn-buy {
+.header__btn-buy {
   font-size: 14px;
   line-height: 140%;
   padding: 14px 24px;
@@ -63,7 +63,7 @@
   background-color: #060606;
 }
 
-.main-header__circle {
+.header__circle {
   width: 60px;
   right: 24px;
   height: 60px;
@@ -84,29 +84,13 @@
   max-width: 485px;
 }
 
-.shopify-store__like h4 {
-  font-size: 15px;
+.shopify-store__like span {
   color: #595959;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 1.5px;
 }
 
 .shopify-store__like h1 {
-  font-size: 54px;
-  color: #343434;
   margin-top: 14px;
-  font-weight: 400;
-  line-height: 67.2px;
   margin-bottom: 12px;
-  letter-spacing: 1.6799999475479126px;
-}
-
-.shopify-store__like p {
-  font-size: 18px;
-  color: #121212;
-  font-weight: 400;
-  line-height: 28.8px;
 }
 
 .shopify-store__buttons {
@@ -114,25 +98,25 @@
   margin-top: 42px;
 }
 
-.shopify-store__buttons button {
+.shopify-store button {
   height: 22px;
   font-size: 16px;
   padding: 1px 45px 0;
   line-height: 22.4px;
   border-radius: 300px;
+  transition: all 0.2s linear;
   border: 2px solid #8979e8;
 }
 
-.admin-demo {
+.shopify-store button:last-child {
+  color: #8979e8;
+}
+
+.shopify-store__buttons button:first-child {
   background-color: #8979e8;
 }
 
-.shop-demo {
-  color: #8979e8;
-  transition: all 0.2s linear;
-}
-
-.shop-demo:hover {
+.shopify-store__buttons button:hover {
   color: #fff;
   background-color: #8979e8;
 }
@@ -156,28 +140,13 @@
   background-color: #f3f1fc;
 }
 
-.manage-store span {
-  font-size: 15px;
-  color: #624ce0;
-  line-height: 24px;
-  letter-spacing: 1.5px;
-}
-
 .manage-store h2 {
   margin: 12px 0;
-  font-size: 53px;
-  max-width: 638px;
-  color: #343434;
-  font-weight: 400;
-  line-height: 67.2px;
-  letter-spacing: 1.6799999475479126px;
+  max-width: 647px;
 }
 
 .manage-store p {
-  font-size: 18px;
-  color: #121212;
   max-width: 608px;
-  line-height: 28.8px;
   margin-bottom: 24px;
 }
 
@@ -201,47 +170,26 @@
   flex: 1 1 252px;
 }
 
-.full-control__over span {
-  font-size: 15px;
-  color: #624ce0;
-  line-height: 24px;
-  letter-spacing: 1.5px;
-}
-
-.full-control__over h2 {
-  font-size: 45px;
-  color: #343434;
-  font-weight: 400;
+.full-control h3 {
   margin: 17px 0 9px;
-  line-height: 62.4px;
-  letter-spacing: 1.440000057220459px;
-}
-
-.full-control__over p {
-  font-size: 18px;
-  color: #121212;
-  font-weight: 400;
-  line-height: 28.8px;
 }
 
 .full-control__cards {
   gap: 20px;
 }
 
-.full-control__card img {
+.full-control img {
   height: 48px;
 }
 
-.full-control__card h4 {
+.full-control h4 {
   margin: 24px 0;
   font-size: 17px;
-  color: #343434;
-  font-weight: 400;
   line-height: 26px;
   letter-spacing: 0.6000000238418579px;
 }
 
-.full-control__card p {
+.full-control p {
   font-size: 16px;
   color: #060606;
   line-height: 25.6px;
@@ -258,28 +206,6 @@
 .pay-once__information {
   max-width: 387px;
   margin: 16px 0 10px;
-}
-
-.pay-once__information span {
-  font-size: 15px;
-  color: #624ce0;
-  line-height: 24px;
-  letter-spacing: 1.5px;
-}
-
-.pay-once__information h2 {
-  color: #343434;
-  font-size: 46px;
-  font-weight: 400;
-  line-height: 62.4px;
-  letter-spacing: 1.440000057220459px;
-}
-
-.pay-once__information p {
-  font-size: 18px;
-  color: #121212;
-  font-weight: 400;
-  line-height: 28.8px;
 }
 
 .pay-once__information button {
@@ -320,28 +246,13 @@
   padding-right: 30px;
 }
 
-.how-sell__information span {
-  font-size: 15px;
-  color: #624ce0;
-  line-height: 24px;
-  letter-spacing: 1.5px;
-}
-
-.how-sell__information h2 {
-  color: #343434;
-  font-size: 48px;
-  font-weight: 400;
+.how-sell__information h3 {
   margin: 17px 0 10px;
-  line-height: 62.4px;
-  letter-spacing: 1.440000057220459px;
 }
 
 .how-sell__information p {
-  color: #121212;
   font-size: 12px;
   max-width: 385px;
-  font-weight: 400;
-  line-height: 28.8px;
 }
 
 .how-sell__information button {
@@ -360,19 +271,8 @@
   background-color: #f7f3eb;
 }
 
-.customers-say h2 {
-  font-size: 54px;
-  color: #343434;
-  font-weight: 400;
-  line-height: 67.2px;
-  letter-spacing: 1.6799999475479126px;
-}
-
 .customers-say p {
-  font-size: 18px;
-  color: #121212;
   margin: 10px 0 47px;
-  line-height: 28.8px;
 }
 
 .customer-say__sliders {
@@ -441,18 +341,7 @@
 }
 
 .investman h2 {
-  font-size: 52px;
-  color: #343434;
-  font-weight: 400;
-  line-height: 67.2px;
   margin-bottom: 10px;
-  letter-spacing: 1.6799999475479126px;
-}
-
-.investman-lifetime p {
-  font-size: 18px;
-  color: #121212;
-  line-height: 28.8px;
 }
 
 .investman__lifetime-types {
@@ -470,8 +359,6 @@
 
 .investman__lifetime-type h4 {
   font-size: 21px;
-  color: #343434;
-  font-weight: 400;
   line-height: 28.6px;
   letter-spacing: 0.6600000262260437px;
 }
@@ -513,6 +400,7 @@
 
 .investman__lifetime-amenities h5 {
   font-size: 14px;
+  color: #060606;
   font-weight: 400;
   line-height: 22.4px;
 }
@@ -535,19 +423,8 @@
   background-color: #f6f6f6;
 }
 
-.start h2 {
-  font-size: 53px;
-  color: #343434;
-  font-weight: 400;
-  line-height: 67.2px;
-  letter-spacing: 1.6799999475479126px;
-}
-
 .where-start p {
-  font-size: 18px;
-  color: #121212;
   margin: 10px 0 23px;
-  line-height: 28.8px;
 }
 
 .start-cards {
@@ -571,8 +448,6 @@
 
 .start-card h5 {
   font-size: 16px;
-  color: #343434;
-  font-weight: 400;
   line-height: 23.4px;
   letter-spacing: 0.5400000214576721px;
 }
@@ -589,18 +464,8 @@
   padding: 75px 55px 108px;
 }
 
-.blog h2 {
-  font-size: 54px;
-  color: #343434;
-  font-weight: 400;
-  line-height: 67.2px;
-  letter-spacing: 1.6799999475479126px;
-}
-
 .read-blog p {
-  font-size: 18px;
   color: #060606;
-  line-height: 28.8px;
   margin: 10px 0 47px;
 }
 
@@ -622,7 +487,6 @@
 .blog-slider h5 {
   font-size: 20px;
   color: #090909;
-  font-weight: 400;
   line-height: 32px;
   margin: 16px 0 12px;
 }
@@ -670,19 +534,11 @@
 }
 
 .installation h2 {
-  font-size: 56px;
-  color: #343434;
   max-width: 583px;
-  font-weight: 400;
-  line-height: 67.2px;
-  letter-spacing: 1.6799999475479126px;
 }
 
 .installation p {
-  font-size: 18px;
-  color: #121212;
   margin-top: 60px;
-  line-height: 28.8px;
 }
 
 .installation small {
@@ -754,10 +610,20 @@
 
 /* Media query */
 @media (min-width: 0) and (max-width: 474.9px) {
-  .main-header__menu {
+  h2,
+  h3 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .header__menu {
     display: none;
   }
-  .main-header__btn-buy {
+  .header__btn-buy {
     font-size: 12px;
     padding: 10px 16px;
   }
@@ -770,11 +636,11 @@
     text-align: center;
     padding: 2rem 1rem 0;
   }
-  .shopify-store__like h1 {
+  .shopify-store h1 {
     font-size: 3rem;
     line-height: 1.2;
   }
-  .shopify-store__like p {
+  .shopify-store p {
     font-size: 1rem;
   }
   .shopify-store__buttons {
@@ -788,27 +654,11 @@
   .manage-store {
     padding: 1rem;
   }
-  .manage-store h2 {
-    font-size: 2rem;
-    line-height: 1.2;
-  }
-  .manage-store p {
-    font-size: 1rem;
-    line-height: 1.4;
-  }
 
   .full-control {
     margin: 40px 0;
     padding: 0 1rem 0;
     text-align: center;
-  }
-  .full-control__over h2 {
-    font-size: 2rem;
-    line-height: 1.2;
-  }
-  .full-control__over p {
-    font-size: 1rem;
-    line-height: 1.4;
   }
   .full-control__cards {
     gap: 10px;
@@ -822,20 +672,12 @@
     text-align: center;
   }
   .pay-once__information h2 {
-    font-size: 2rem;
-    line-height: 1.2;
     margin: 1.25rem 0;
   }
-  .pay-once__information p {
-    font-size: 1rem;
-    line-height: 1.4;
-  }
+
   .pay-once__information button {
     font-size: 14px;
     margin-top: 20px;
-  }
-  .pay-once__image {
-    position: static;
   }
 
   .how-sell {
@@ -848,11 +690,8 @@
   }
   .how-sell__information h2 {
     margin: 10px 0;
-    font-size: 2rem;
-    line-height: 1.2;
   }
   .how-sell__information p {
-    line-height: 1.4;
     margin-left: auto;
     margin-right: auto;
   }
@@ -868,13 +707,7 @@
     padding-top: 30px;
     padding-bottom: 40px;
   }
-  .customers-say h2 {
-    font-size: 2rem;
-    line-height: 1.2;
-  }
   .customers-say p {
-    font-size: 1rem;
-    line-height: 1.2;
     margin-bottom: 10px;
   }
   .customer-say__sliders {
@@ -901,14 +734,7 @@
   .investman {
     padding: 30px 0px;
   }
-  .investman h2 {
-    font-size: 2rem;
-    line-height: 1.2;
-  }
-  .investman-lifetime p {
-    font-size: 1rem;
-    line-height: 1.2;
-  }
+
   .investman__lifetime-types {
     padding: 0;
   }
@@ -926,14 +752,6 @@
   .start {
     padding: 30px 20px;
   }
-  .start h2 {
-    font-size: 2rem;
-    line-height: 1.2;
-  }
-  .where-start p {
-    font-size: 1rem;
-    line-height: 1.2;
-  }
   .start-cards {
     gap: 1rem;
     padding: 0;
@@ -948,10 +766,6 @@
 
   .blog {
     padding: 30px;
-  }
-  .blog h2 {
-    font-size: 2rem;
-    line-height: 1.2;
   }
   .read-blog p {
     margin-bottom: 10px;
@@ -968,13 +782,8 @@
   .installation {
     padding: 30px;
   }
-  .installation h2 {
-    font-size: 2rem;
-    line-height: 1.2;
-  }
   .installation p {
     margin-top: 20px;
-    line-height: 1.2;
   }
   .installation small {
     margin-top: 7px;
@@ -994,30 +803,30 @@
 }
 
 @media (min-width: 475px) and (max-width: 775.9px) {
-  .main-header {
+  .header {
     padding-bottom: 40px;
   }
-  .main-header__menu {
+  .header__menu {
     gap: 1rem;
     width: auto;
     margin-left: 0;
     justify-content: start;
   }
-  .main-header__menu-link {
+  .header__menu-link {
     font-size: 12px;
   }
-  .main-header__btn-buy {
+  .header__btn-buy {
     font-size: 12px;
     padding: 10px 16px;
   }
-  .main-header__circle {
+  .header__circle {
     bottom: 20px;
   }
 
   .shopify-store {
     padding: 2rem 1rem 0;
   }
-  .shopify-store__like {
+  .shopify-store {
     width: 100%;
     max-width: 100%;
   }
@@ -1096,14 +905,14 @@
 }
 
 @media (min-width: 776px) and (max-width: 989.9px) {
-  .main-header__menu {
+  .header__menu {
     margin-left: 0;
   }
 
   .shopify-store {
     padding: 2rem 1rem 0;
   }
-  .shopify-store__like {
+  .shopify-store {
     width: 100%;
     max-width: 100%;
     text-align: center;
