@@ -42,7 +42,7 @@
   justify-content: center;
   background-color: #333;
   transition: transform 0.5s;
-  transform: translateY(-40rem);
+  transform: translateY(-150rem);
 }
 
 .down {
