@@ -55,6 +55,9 @@ h3 + p {
 }
 
 /* classes */
+.hidden {
+  display: none;
+}
 .block {
   display: block;
 }
