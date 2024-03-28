@@ -11,16 +11,42 @@
 /* Burger menu */
 .burger-menu {
   gap: 5px;
+  right: 0;
   top: 2rem;
-  right: 2rem;
+  z-index: 3;
   display: none;
+  position: absolute;
   transition: all 0.5s;
 }
 
 .burger-menu span {
   width: 20px;
   height: 1px;
+  position: relative;
   background-color: #000;
+  transition: all 0.5s linear;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  row-gap: 2rem;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #333;
+  transition: transform 0.5s;
+  transform: translateY(-40rem);
+}
+
+.down {
+  transform: translateY(0);
 }
 
 /* navbar */
@@ -73,6 +99,7 @@
 
 /* Shopify store */
 .shopify-store {
+  column-gap: 1rem;
   max-width: 1330px;
   padding-top: 40px;
   padding-left: 55px;
@@ -807,6 +834,7 @@
   }
 
   .shopify-store {
+    text-align: center;
     padding: 2rem 1rem 0;
   }
   .shopify-store {
